@@ -6,7 +6,7 @@ Transform:
 Parameters:
   ProjectId:
     Type: String
-    Description: CodeStar projectId used to associate new resources to team members
+    Description: CodeStar projectId used to associate new resources to team members. This is being done as a test
   CodeDeployRole:
     Type: String
     Description: IAM role to allow AWS CodeDeploy to manage deployment of AWS Lambda functions
