@@ -4,7 +4,7 @@ import index
 
 class TestHandlerCase(unittest.TestCase):
 
-    def test_response(self):
+    def test_response(self):(adding test to see)
         print("testing response.")
         result = index.handler(None, None)
         print(result)
